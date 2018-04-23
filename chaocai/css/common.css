@@ -1,0 +1,96 @@
+@charset "utf-8";
+body,
+div,hr,p,blockquote,ul,ol,li,table,th,td,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,
+input,button,select,textarea,fieldset,legend,img{
+	margin: 0;
+	padding: 0
+}
+
+body,
+button,
+input,
+label,
+select,
+option,
+textarea,
+button,
+fieldset,
+legend {
+	font: 12px/1.5 Verdana, Tahoma, Arial, \5b8b\4f53, Helvetica, sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+ul,
+ol {
+	list-style: none
+}
+
+a {
+	color: #333;
+	text-decoration: none
+}
+
+a:hover {
+	color: #FF6501;
+	text-decoration: underline
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal
+}
+
+strong {
+	font-weight: bold
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+button {
+	cursor: pointer
+}
+
+legend {
+	color: #000
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%
+}
+
+body {
+	background: #fff;
+	color: #333
+}
+html,body{width: 100%;}

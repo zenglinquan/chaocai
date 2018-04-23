@@ -1,0 +1,99 @@
+
+@charset "utf-8";
+/*@media all and (orientation : portrait)
+{
+    html {
+    width: 100vh;
+    height: 100vm;
+    transform: rotate(90deg);
+    transform-origin: 50vw 50vw;
+  }
+}
+@media all and (orientation : landscape)
+{
+    html {
+    	
+  }
+}*/
+.content {
+	width: 980px;
+	margin: 0 auto;
+	zoom: 1;
+}
+
+
+
+@charset "utf-8";
+.detail_frame:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden
+}
+
+.game_title{
+	background-image: url(http://3366.gtimg.com/img/portal/v2/middle/detail_box_x.png);
+	background-repeat: repeat-x
+}
+
+.detail_wrap {
+	width: 978px;
+	/*background: #80d7ff;
+	border: #51a6f3 1px solid*/
+}
+
+.detail_frame {
+	width: 970px;
+	height: auto;
+	background: #fff;
+	/*margin: 3px 3px;
+	border: #76b3eb 1px solid;*/
+	zoom: 1
+}
+
+.game_frame {
+	float: left;
+	width: 734px;
+	border-right: #bed7e8 1px solid
+}
+
+.game_title {
+	height: 34px;
+	padding-top: 4px;
+	background-position: 0 0
+}
+
+.game_title h1 {
+	float: left;
+	margin-left: -1px;
+	display: inline;
+	padding: 0 8px 0 20px;
+	font: bold 16px/28px 'Lucida Grande', '\5fae\8f6f\96c5\9ed1', "\5b8b\4f53", Tahoma;
+	color: #333;
+	background-position: -365px 0
+}
+
+
+
+.game_box {
+	position: relative;
+	padding: 6px 6px;
+	border: 1px solid #cfdfeb;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-box-shadow: 0 2px #dde4ed;
+	-moz-box-shadow: 0 2px #dde4ed;
+}
+
+
+.detail_wide .game_frame {
+	width: 970px;
+	border-right: none;
+}
+.detail_wide .game_result {
+	width: 970px;
+	height: 505px;
+	background: url(http://www.3366.com/img/portal/v2/middle/result_bg_wide.png) 0 0 no-repeat
+}
